@@ -62,6 +62,11 @@ THE SOFTWARE.
 // but want the compiler to shut up about it
 #define I2CDEV_IMPLEMENTATION_WARNINGS
 
+typedef unsigned char   uint8_t
+//typedef char            int8_t
+//typedef unsigned int    uint16_t
+
+
 // -----------------------------------------------------------------------------
 // I2C interface implementation options
 // -----------------------------------------------------------------------------
