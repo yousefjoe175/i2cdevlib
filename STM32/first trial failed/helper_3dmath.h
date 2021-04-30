@@ -31,7 +31,10 @@ THE SOFTWARE.
 
 #ifndef _HELPER_3DMATH_H_
 #define _HELPER_3DMATH_H_
-#include <cmath>
+
+#include <cmath>       /* atan2 */
+
+#define PI 3.14159265
 
 class Quaternion {
     public:
